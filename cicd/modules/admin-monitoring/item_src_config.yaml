@@ -1,4 +1,4 @@
-workspace: 'FOS#with_schema'
+workspace: 'FOS#rca_init'
 connections:
   pbi_connection : fos pbi-service-api admin
   fabric_connection: fos fabric-service-api admin
