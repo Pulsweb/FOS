@@ -1,4 +1,4 @@
-workspace: 'FOS#with_schema'
+workspace: 'FOS#rca'
 project_base_name: 'FOS'
 capacity: 'fskucapacity1'
 admin_group: '86bfd3c7-f1ba-469b-919d-32125514be54'
