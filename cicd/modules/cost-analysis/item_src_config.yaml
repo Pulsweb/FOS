@@ -1,4 +1,4 @@
-workspace: Cost_Analysis
+workspace: 'FOS#feature1'
 connections:
   azure_connection: cost_analysis azure management
 
