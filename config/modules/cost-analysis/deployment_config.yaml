@@ -43,7 +43,6 @@ folders:
       - name: Data Agent
         items:
           - 02_Create_DataAgent.Notebook
-          - Cost_Analysis_Agent.DataAgent
       - name: Reservations
         items:
           - 02_Load_DimReservation.Notebook
