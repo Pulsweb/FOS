@@ -5,7 +5,7 @@ table audit_latest_available_cost_analysis_version
 
 	/// Indicates whether an Cost_Analysis update is available by comparing the current Cost_Analysis version with the latest available version.
 	measure 'Cost_Analysis Update Available' = ```
-			
+
 						IF([Cost_Analysis Release] == MAX(audit_latest_available_cost_analysis_version[current_cost_analysis_version]), 0, 1)
 			```
 		formatString: 0
@@ -16,7 +16,7 @@ table audit_latest_available_cost_analysis_version
 		changedProperty = Description
 
 	/// A static string value for Cost_Analysis Release.
-	measure 'Cost_Analysis Release' = "2026.05.26"
+	measure 'Cost_Analysis Release' = "2026.10.29"
 		lineageTag: ba9a1bef-cb0e-42f4-8d14-ad6467ada7b7
 
 		changedProperty = Name
@@ -25,7 +25,7 @@ table audit_latest_available_cost_analysis_version
 
 	/// Displays a string message based on whether the Cost_Analysis Release is equal to the maximum current Cost_Analysis version.
 	measure 'Cost_Analysis Release Message' = ```
-			
+
 						IF(
 						    [Cost_Analysis Release]== MAX(audit_latest_available_cost_analysis_version[current_cost_analysis_version]),
 						     "Cost_Analysis is up-to-date",
