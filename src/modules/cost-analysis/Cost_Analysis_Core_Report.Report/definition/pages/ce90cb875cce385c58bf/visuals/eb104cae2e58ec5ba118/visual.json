@@ -40,13 +40,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#UsageRatioCapacity"
                 }
               },
-              "queryRef": "fca.#UsageRatioCapacity",
+              "queryRef": "cost_analysis.#UsageRatioCapacity",
               "nativeQueryRef": "#UsageRatioCapacity"
             }
           ]
@@ -59,7 +59,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#UsageRatioCapacity"
@@ -291,7 +291,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -309,7 +309,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -327,7 +327,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OtherPAYG"
+            "metadata": "cost_analysis.$OtherPAYG"
           }
         },
         {
@@ -345,7 +345,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OneLake"
+            "metadata": "cost_analysis.$OneLake"
           }
         }
       ],

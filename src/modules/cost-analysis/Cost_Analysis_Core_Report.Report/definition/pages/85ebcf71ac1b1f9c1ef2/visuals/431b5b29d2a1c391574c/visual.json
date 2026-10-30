@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#TotalCost"
                 }
               },
-              "queryRef": "fca.$TCO",
+              "queryRef": "cost_analysis.$TCO",
               "nativeQueryRef": "Total Cost",
               "displayName": "Total Cost"
             }
@@ -39,13 +39,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CostWithoutRI"
                 }
               },
-              "queryRef": "fca.#CostWithoutRI",
+              "queryRef": "cost_analysis.#CostWithoutRI",
               "nativeQueryRef": "Cost without Reservation",
               "displayName": "Cost without Reservation"
             }
@@ -59,7 +59,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#TotalCost"
@@ -340,7 +340,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -469,7 +469,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$TCO"
+            "metadata": "cost_analysis.$TCO"
           }
         }
       ],
@@ -669,7 +669,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#BCDRCost"
@@ -685,7 +685,7 @@
                 }
               }
             ],
-            "metadata": "fca.$TCO",
+            "metadata": "cost_analysis.$TCO",
             "id": "field-b5ac4e0b-a3e1-cfdd-9d38-fd3827d1c48c",
             "order": 0
           }
@@ -717,7 +717,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$TCO",
+            "metadata": "cost_analysis.$TCO",
             "id": "field-b5ac4e0b-a3e1-cfdd-9d38-fd3827d1c48c"
           }
         }
@@ -734,7 +734,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$TCO",
+            "metadata": "cost_analysis.$TCO",
             "id": "field-b5ac4e0b-a3e1-cfdd-9d38-fd3827d1c48c"
           }
         }

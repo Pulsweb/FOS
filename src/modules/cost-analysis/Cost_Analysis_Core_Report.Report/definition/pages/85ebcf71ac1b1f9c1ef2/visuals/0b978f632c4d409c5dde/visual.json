@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "FinOps Maturity Label"
                 }
               },
-              "queryRef": "fca.FinOps Maturity Label",
+              "queryRef": "cost_analysis.FinOps Maturity Label",
               "nativeQueryRef": "FinOps Maturity Label"
             }
           ]
@@ -38,13 +38,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "FinOps Maturity Score"
                 }
               },
-              "queryRef": "fca.FinOps Maturity Score",
+              "queryRef": "cost_analysis.FinOps Maturity Score",
               "nativeQueryRef": "FinOps Maturity Score"
             }
           ]
@@ -57,7 +57,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "FinOps Maturity Score"
@@ -146,7 +146,7 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "fca"
+                                      "Entity": "cost_analysis"
                                     }
                                   },
                                   "Property": "FinOps Maturity Label"
@@ -177,7 +177,7 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "fca"
+                                      "Entity": "cost_analysis"
                                     }
                                   },
                                   "Property": "FinOps Maturity Label"
@@ -208,7 +208,7 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "fca"
+                                      "Entity": "cost_analysis"
                                     }
                                   },
                                   "Property": "FinOps Maturity Label"
@@ -239,7 +239,7 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "fca"
+                                      "Entity": "cost_analysis"
                                     }
                                   },
                                   "Property": "FinOps Maturity Label"

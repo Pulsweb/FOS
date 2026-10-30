@@ -151,10 +151,10 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "audit_latest_available_fca_version"
+                          "Entity": "audit_latest_available_cost_analysis_version"
                         }
                       },
-                      "Property": "FCA Release"
+                      "Property": "Cost_Analysis Release"
                     }
                   },
                   "howCreated": 0
@@ -211,10 +211,10 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
-                      "Property": "#FCACountRows"
+                      "Property": "#Cost_AnalysisCountRows"
                     }
                   },
                   "howCreated": 1
@@ -533,7 +533,7 @@
                         "Column": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "fca"
+                              "Entity": "cost_analysis"
                             }
                           },
                           "Property": "BillingCurrency"
@@ -868,7 +868,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#Capacities"

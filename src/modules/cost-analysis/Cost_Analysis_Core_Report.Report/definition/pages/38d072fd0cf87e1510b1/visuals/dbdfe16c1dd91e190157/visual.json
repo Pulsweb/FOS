@@ -54,13 +54,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#TotalCost"
                 }
               },
-              "queryRef": "fca.$TCO",
+              "queryRef": "cost_analysis.$TCO",
               "nativeQueryRef": "Cost",
               "displayName": "Cost"
             },
@@ -71,7 +71,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#TotalCost"
@@ -92,7 +92,7 @@
                   "ApplyCalculationGroupTo": "Sparkline"
                 }
               },
-              "queryRef": "SparklineData(fca.#TotalCost_[calendar.Date])",
+              "queryRef": "SparklineData(cost_analysis.#TotalCost_[calendar.Date])",
               "nativeQueryRef": "Cost by Date",
               "displayName": "Cost by Date"
             }
@@ -232,7 +232,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.#TotalCost_[calendar.Date])"
+            "metadata": "SparklineData(cost_analysis.#TotalCost_[calendar.Date])"
           }
         }
       ],
@@ -291,7 +291,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.$TCO_[fca.ChargePeriodStart])"
+            "metadata": "SparklineData(cost_analysis.$TCO_[cost_analysis.ChargePeriodStart])"
           }
         },
         {
@@ -334,7 +334,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.#TotalCost_[calendar.Date])"
+            "metadata": "SparklineData(cost_analysis.#TotalCost_[calendar.Date])"
           }
         }
       ],
@@ -473,7 +473,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$TCO"
+            "metadata": "cost_analysis.$TCO"
           }
         }
       ]

@@ -63,10 +63,10 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "audit_latest_available_fca_version"
+                      "Entity": "audit_latest_available_cost_analysis_version"
                     }
                   },
-                  "Property": "FCA Release Message"
+                  "Property": "Cost_Analysis Release Message"
                 }
               }
             },
@@ -116,10 +116,10 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "audit_latest_available_fca_version"
+                                      "Entity": "audit_latest_available_cost_analysis_version"
                                     }
                                   },
-                                  "Property": "FCA Update Available"
+                                  "Property": "Cost_Analysis Update Available"
                                 }
                               },
                               "Right": {
@@ -143,10 +143,10 @@
                                 "Measure": {
                                   "Expression": {
                                     "SourceRef": {
-                                      "Entity": "audit_latest_available_fca_version"
+                                      "Entity": "audit_latest_available_cost_analysis_version"
                                     }
                                   },
-                                  "Property": "FCA Update Available"
+                                  "Property": "Cost_Analysis Update Available"
                                 }
                               },
                               "Right": {
@@ -223,7 +223,7 @@
             "tooltip": {
               "expr": {
                 "Literal": {
-                  "Value": "'Link: How to update FCA'"
+                  "Value": "'Link: How to update Cost Analysis'"
                 }
               }
             }

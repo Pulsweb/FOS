@@ -55,13 +55,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#OneLake"
                 }
               },
-              "queryRef": "fca.#OneLake",
+              "queryRef": "cost_analysis.#OneLake",
               "nativeQueryRef": "OneLake",
               "displayName": "OneLake"
             }
@@ -324,7 +324,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "fca"
+                "Entity": "cost_analysis"
               }
             },
             "Property": "#OneLake"
@@ -336,7 +336,7 @@
           "From": [
             {
               "Name": "f",
-              "Entity": "fca",
+              "Entity": "cost_analysis",
               "Type": 0
             }
           ],

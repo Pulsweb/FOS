@@ -698,10 +698,10 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "fca"
+                "Entity": "cost_analysis"
               }
             },
-            "Property": "#FCACountRows"
+            "Property": "#Cost_AnalysisCountRows"
           }
         },
         "type": "Advanced",

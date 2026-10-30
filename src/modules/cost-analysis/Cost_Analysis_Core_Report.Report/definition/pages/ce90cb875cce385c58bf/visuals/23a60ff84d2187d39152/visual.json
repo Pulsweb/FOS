@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#UsedCapacity"
                 }
               },
-              "queryRef": "fca.#UsedCapacity",
+              "queryRef": "cost_analysis.#UsedCapacity",
               "nativeQueryRef": "Used Capacity",
               "displayName": "Used Capacity"
             }
@@ -40,7 +40,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#UsedCapacity"
@@ -100,7 +100,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#ProvisionedCapacity"
+            "metadata": "cost_analysis.#ProvisionedCapacity"
           }
         },
         {
@@ -121,7 +121,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#UsedCapacity"
+            "metadata": "cost_analysis.#UsedCapacity"
           }
         }
       ],

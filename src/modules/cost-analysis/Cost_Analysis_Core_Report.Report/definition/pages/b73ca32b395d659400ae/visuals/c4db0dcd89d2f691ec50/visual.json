@@ -39,13 +39,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Reservation"
                 }
               },
-              "queryRef": "fca.$RI",
+              "queryRef": "cost_analysis.$RI",
               "nativeQueryRef": "Reservation",
               "displayName": "Reservation"
             },
@@ -54,13 +54,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CapacityPAYG"
                 }
               },
-              "queryRef": "fca.$CapacityPAYG",
+              "queryRef": "cost_analysis.$CapacityPAYG",
               "nativeQueryRef": "PAYG",
               "displayName": "PAYG"
             },
@@ -69,13 +69,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#OtherPAYG"
                 }
               },
-              "queryRef": "fca.#OtherPAYG",
+              "queryRef": "cost_analysis.#OtherPAYG",
               "nativeQueryRef": "Additional Cost",
               "displayName": "Additional Cost"
             },
@@ -84,13 +84,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#OneLake"
                 }
               },
-              "queryRef": "fca.#OneLake",
+              "queryRef": "cost_analysis.#OneLake",
               "nativeQueryRef": "OneLake",
               "displayName": "OneLake"
             }
@@ -104,7 +104,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#CapacityPAYG"
@@ -302,7 +302,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -320,7 +320,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -338,7 +338,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#OneLake"
+            "metadata": "cost_analysis.#OneLake"
           }
         },
         {
@@ -356,7 +356,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#OtherPAYG"
+            "metadata": "cost_analysis.#OtherPAYG"
           }
         }
       ],

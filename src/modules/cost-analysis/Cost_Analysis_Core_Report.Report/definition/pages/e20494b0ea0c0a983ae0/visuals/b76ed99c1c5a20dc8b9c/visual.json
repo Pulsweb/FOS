@@ -386,7 +386,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         }
       ],
@@ -443,7 +443,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         }
       ],
@@ -468,7 +468,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CommitmentSavings"
@@ -484,7 +484,7 @@
                 }
               }
             ],
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290",
             "order": 0
           }
@@ -502,7 +502,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -516,7 +516,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         }
@@ -533,7 +533,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -568,7 +568,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         }
@@ -599,7 +599,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         }

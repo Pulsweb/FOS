@@ -331,7 +331,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -349,7 +349,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -367,7 +367,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OtherPAYG"
+            "metadata": "cost_analysis.$OtherPAYG"
           }
         },
         {
@@ -385,7 +385,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OneLake"
+            "metadata": "cost_analysis.$OneLake"
           }
         }
       ],

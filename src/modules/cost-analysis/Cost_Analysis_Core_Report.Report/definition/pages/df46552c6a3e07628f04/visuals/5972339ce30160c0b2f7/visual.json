@@ -81,13 +81,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Capacities"
                 }
               },
-              "queryRef": "fca.#Capacities",
+              "queryRef": "cost_analysis.#Capacities",
               "nativeQueryRef": "#Capacities"
             },
             {
@@ -359,7 +359,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.#TotalCost_[calendar.Date])"
+            "metadata": "SparklineData(cost_analysis.#TotalCost_[calendar.Date])"
           }
         },
         {
@@ -443,7 +443,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#Capacities"
+            "metadata": "cost_analysis.#Capacities"
           }
         }
       ],
@@ -502,7 +502,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.$TCO_[fca.ChargePeriodStart])"
+            "metadata": "SparklineData(cost_analysis.$TCO_[cost_analysis.ChargePeriodStart])"
           }
         },
         {
@@ -545,7 +545,7 @@
             }
           },
           "selector": {
-            "metadata": "SparklineData(fca.#TotalCost_[calendar.Date])"
+            "metadata": "SparklineData(cost_analysis.#TotalCost_[calendar.Date])"
           }
         }
       ],
@@ -634,7 +634,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$TCO"
+            "metadata": "cost_analysis.$TCO"
           }
         }
       ],

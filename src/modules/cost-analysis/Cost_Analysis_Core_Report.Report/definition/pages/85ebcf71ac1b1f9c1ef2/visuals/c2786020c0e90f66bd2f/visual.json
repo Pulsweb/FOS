@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Reservation"
                 }
               },
-              "queryRef": "fca.$RI",
+              "queryRef": "cost_analysis.$RI",
               "nativeQueryRef": "Reservation",
               "displayName": "Reservation"
             }
@@ -40,7 +40,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#Reservation"
@@ -292,7 +292,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         }
       ],
@@ -421,7 +421,7 @@
                 }
               }
             ],
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-cf85151a-328e-538b-481f-b285ab9cb655",
             "order": 0
           }
@@ -436,7 +436,7 @@
                 }
               }
             ],
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-b346a661-424d-daf9-3cdf-347c103d823c",
             "order": 0
           }
@@ -451,7 +451,7 @@
                 }
               }
             ],
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290",
             "order": 0
           }
@@ -463,7 +463,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CopilotRI"
@@ -479,7 +479,7 @@
                 }
               }
             ],
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-8a5fb331-9823-87d9-6abd-9e78cca40caa",
             "order": 0
           }
@@ -497,7 +497,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -532,7 +532,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         },
@@ -568,7 +568,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-8a5fb331-9823-87d9-6abd-9e78cca40caa"
           }
         }
@@ -585,7 +585,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -599,7 +599,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         }
@@ -616,7 +616,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -665,7 +665,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI",
+            "metadata": "cost_analysis.$RI",
             "id": "field-ae7410a9-92cc-2e03-45a3-f3bff680f290"
           }
         }

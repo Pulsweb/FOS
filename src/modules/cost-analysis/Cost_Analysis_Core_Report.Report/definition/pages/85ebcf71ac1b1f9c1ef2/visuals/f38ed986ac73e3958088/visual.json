@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#OneLake"
                 }
               },
-              "queryRef": "fca.#OneLake",
+              "queryRef": "cost_analysis.#OneLake",
               "nativeQueryRef": "OneLake",
               "displayName": "OneLake"
             }
@@ -40,7 +40,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#OneLake"
@@ -314,7 +314,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -425,7 +425,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#OneLake"
+            "metadata": "cost_analysis.#OneLake"
           }
         }
       ],
@@ -518,7 +518,7 @@
                 }
               }
             ],
-            "metadata": "fca.#OneLake",
+            "metadata": "cost_analysis.#OneLake",
             "id": "field-f43a8666-71b5-d825-97f9-a88b0c92d890",
             "order": 0
           }
@@ -530,7 +530,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Mirroring"
@@ -546,7 +546,7 @@
                 }
               }
             ],
-            "metadata": "fca.#OneLake",
+            "metadata": "cost_analysis.#OneLake",
             "id": "field-a0c5185a-7878-89a3-5c8a-d1cca4b16364",
             "order": 0
           }
@@ -578,7 +578,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#OneLake",
+            "metadata": "cost_analysis.#OneLake",
             "id": "field-a0c5185a-7878-89a3-5c8a-d1cca4b16364"
           }
         }
@@ -609,7 +609,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#OneLake",
+            "metadata": "cost_analysis.#OneLake",
             "id": "field-a0c5185a-7878-89a3-5c8a-d1cca4b16364"
           }
         }

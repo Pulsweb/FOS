@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Regions"
                 }
               },
-              "queryRef": "fca.#Regions",
+              "queryRef": "cost_analysis.#Regions",
               "nativeQueryRef": "Regions",
               "displayName": "Regions",
               "format": "0"
@@ -36,13 +36,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Capacities"
                 }
               },
-              "queryRef": "fca.#Capacities",
+              "queryRef": "cost_analysis.#Capacities",
               "nativeQueryRef": "Capacities",
               "displayName": "Capacities",
               "format": "0"
@@ -57,7 +57,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#Regions"
@@ -267,7 +267,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#Capacities"
+            "metadata": "cost_analysis.#Capacities"
           }
         },
         {
@@ -329,7 +329,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#Regions"
+            "metadata": "cost_analysis.#Regions"
           }
         },
         {

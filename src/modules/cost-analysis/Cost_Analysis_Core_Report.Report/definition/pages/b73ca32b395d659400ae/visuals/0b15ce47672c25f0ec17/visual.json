@@ -22,7 +22,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "BillingCurrency"
@@ -31,7 +31,7 @@
                   "Function": 3
                 }
               },
-              "queryRef": "Min(fca.BillingCurrency)",
+              "queryRef": "Min(cost_analysis.BillingCurrency)",
               "nativeQueryRef": "First BillingCurrency"
             }
           ]

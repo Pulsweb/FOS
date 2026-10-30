@@ -55,13 +55,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#Reservation"
                 }
               },
-              "queryRef": "fca.#Reservation",
+              "queryRef": "cost_analysis.#Reservation",
               "nativeQueryRef": "Reservation",
               "displayName": "Reservation"
             }
@@ -75,7 +75,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#Reservation"
@@ -332,7 +332,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "fca"
+                "Entity": "cost_analysis"
               }
             },
             "Property": "#Reservation"
@@ -344,7 +344,7 @@
           "From": [
             {
               "Name": "f",
-              "Entity": "fca",
+              "Entity": "cost_analysis",
               "Type": 0
             }
           ],

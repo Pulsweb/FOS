@@ -55,13 +55,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#OtherPAYG"
                 }
               },
-              "queryRef": "fca.#OtherPAYG",
+              "queryRef": "cost_analysis.#OtherPAYG",
               "nativeQueryRef": "Additional Cost",
               "displayName": "Additional Cost"
             },
@@ -70,13 +70,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#PauseCost"
                 }
               },
-              "queryRef": "fca.#PauseCost",
+              "queryRef": "cost_analysis.#PauseCost",
               "nativeQueryRef": "Pause Cost",
               "displayName": "Pause Cost"
             },
@@ -85,13 +85,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#SparkAutoScale"
                 }
               },
-              "queryRef": "fca.#SparkAutoScale",
+              "queryRef": "cost_analysis.#SparkAutoScale",
               "nativeQueryRef": "SparkAutoScale",
               "displayName": "SparkAutoScale"
             },
@@ -100,13 +100,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CapacityAutoScale"
                 }
               },
-              "queryRef": "fca.#CapacityAutoScale",
+              "queryRef": "cost_analysis.#CapacityAutoScale",
               "nativeQueryRef": "Capacity Overage",
               "displayName": "Capacity Overage"
             }
@@ -120,7 +120,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#OtherPAYG"
@@ -392,7 +392,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "fca"
+                "Entity": "cost_analysis"
               }
             },
             "Property": "#OtherPAYG"
@@ -404,7 +404,7 @@
           "From": [
             {
               "Name": "f",
-              "Entity": "fca",
+              "Entity": "cost_analysis",
               "Type": 0
             }
           ],

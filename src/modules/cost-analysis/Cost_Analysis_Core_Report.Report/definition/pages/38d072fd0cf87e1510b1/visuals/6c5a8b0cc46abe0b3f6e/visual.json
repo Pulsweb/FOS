@@ -40,13 +40,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#TotalCost"
                 }
               },
-              "queryRef": "fca.$TCO",
+              "queryRef": "cost_analysis.$TCO",
               "nativeQueryRef": "Cost",
               "displayName": "Cost"
             }
@@ -100,7 +100,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -118,7 +118,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -136,7 +136,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OtherPAYG"
+            "metadata": "cost_analysis.$OtherPAYG"
           }
         },
         {
@@ -154,7 +154,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OneLake"
+            "metadata": "cost_analysis.$OneLake"
           }
         },
         {

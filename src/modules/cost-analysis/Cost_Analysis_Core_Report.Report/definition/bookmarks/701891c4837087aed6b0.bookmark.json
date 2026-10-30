@@ -56,7 +56,7 @@
                     "From": [
                       {
                         "Name": "f",
-                        "Entity": "fca",
+                        "Entity": "cost_analysis",
                         "Type": 0
                       }
                     ],
@@ -89,7 +89,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#CapacityPAYG"
@@ -124,7 +124,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#CapacityPAYG"
@@ -147,7 +147,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OneLake"
@@ -167,7 +167,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OneLake"
@@ -188,7 +188,7 @@
                     "From": [
                       {
                         "Name": "f",
-                        "Entity": "fca",
+                        "Entity": "cost_analysis",
                         "Type": 0
                       }
                     ],
@@ -221,7 +221,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OtherPAYG"
@@ -256,7 +256,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OtherPAYG"
@@ -288,7 +288,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "SubAccountName"
@@ -323,7 +323,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "SubAccountName"
@@ -344,7 +344,7 @@
                     "From": [
                       {
                         "Name": "f",
-                        "Entity": "fca",
+                        "Entity": "cost_analysis",
                         "Type": 0
                       }
                     ],
@@ -377,7 +377,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OneLake"
@@ -435,7 +435,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#CapacityPAYG"
@@ -455,7 +455,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#CapacityPAYG"
@@ -475,7 +475,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#TotalCost"
@@ -495,7 +495,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#TotalCost"
@@ -515,7 +515,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "x_ResourceGroupName"
@@ -550,7 +550,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "x_ResourceGroupName"
@@ -576,7 +576,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "RegionName"
@@ -591,7 +591,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "ResourceName"
@@ -626,7 +626,7 @@
                     "Column": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "RegionName"
@@ -647,7 +647,7 @@
                     "From": [
                       {
                         "Name": "f",
-                        "Entity": "fca",
+                        "Entity": "cost_analysis",
                         "Type": 0
                       }
                     ],
@@ -680,7 +680,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#Reservation"
@@ -715,7 +715,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#Reservation"
@@ -746,7 +746,7 @@
                         "Column": {
                           "Expression": {
                             "SourceRef": {
-                              "Entity": "fca"
+                              "Entity": "cost_analysis"
                             }
                           },
                           "Property": "BillingCurrency"
@@ -1000,7 +1000,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OtherPAYG"
@@ -1020,7 +1020,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#OtherPAYG"
@@ -1049,7 +1049,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#Reservation"
@@ -1069,7 +1069,7 @@
                     "Measure": {
                       "Expression": {
                         "SourceRef": {
-                          "Entity": "fca"
+                          "Entity": "cost_analysis"
                         }
                       },
                       "Property": "#Reservation"

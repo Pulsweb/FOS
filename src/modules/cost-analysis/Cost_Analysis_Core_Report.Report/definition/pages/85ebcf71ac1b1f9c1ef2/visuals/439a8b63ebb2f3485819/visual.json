@@ -20,13 +20,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CapacityPAYG"
                 }
               },
-              "queryRef": "fca.$CapacityPAYG",
+              "queryRef": "cost_analysis.$CapacityPAYG",
               "nativeQueryRef": "Pay-as-you-go",
               "displayName": "Pay-as-you-go"
             }
@@ -40,7 +40,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#CapacityPAYG"
@@ -314,7 +314,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -390,7 +390,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -419,7 +419,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-1b92bbd4-4e36-297d-692f-162655b82313",
             "order": 0
           }
@@ -434,7 +434,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-6c20c475-14c8-12bd-a8fe-cbadacafe201",
             "order": 0
           }
@@ -449,7 +449,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-0caeb83e-8ab0-d1f8-ac06-8364b4ac8807",
             "order": 0
           }
@@ -464,7 +464,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-eff7454c-11f7-c186-532d-5c6ce8794ecc",
             "order": 0
           }
@@ -476,7 +476,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CopilotPAYG"
@@ -492,7 +492,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-dcf20ca8-b3a7-2617-cbf6-9256bc5a5793",
             "order": 0
           }
@@ -524,7 +524,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-1b92bbd4-4e36-297d-692f-162655b82313"
           }
         },
@@ -553,7 +553,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-6c20c475-14c8-12bd-a8fe-cbadacafe201"
           }
         },
@@ -582,7 +582,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-0caeb83e-8ab0-d1f8-ac06-8364b4ac8807"
           }
         },
@@ -597,7 +597,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -632,7 +632,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-eff7454c-11f7-c186-532d-5c6ce8794ecc"
           }
         },
@@ -654,7 +654,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-dcf20ca8-b3a7-2617-cbf6-9256bc5a5793"
           }
         }
@@ -699,7 +699,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-1b92bbd4-4e36-297d-692f-162655b82313"
           }
         },
@@ -710,7 +710,7 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "PauseCost %"
@@ -726,7 +726,7 @@
                 }
               }
             ],
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-1b92bbd4-4e36-297d-692f-162655b82313"
           }
         },
@@ -787,7 +787,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         }
       ],
@@ -817,7 +817,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-1b92bbd4-4e36-297d-692f-162655b82313"
           }
         },
@@ -846,7 +846,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-6c20c475-14c8-12bd-a8fe-cbadacafe201"
           }
         },
@@ -868,7 +868,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG",
+            "metadata": "cost_analysis.$CapacityPAYG",
             "id": "field-0caeb83e-8ab0-d1f8-ac06-8364b4ac8807"
           }
         },
@@ -883,7 +883,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {

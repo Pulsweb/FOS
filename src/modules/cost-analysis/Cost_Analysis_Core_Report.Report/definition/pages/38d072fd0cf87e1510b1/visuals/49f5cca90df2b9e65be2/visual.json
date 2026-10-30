@@ -69,13 +69,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "Total Cost YTD"
                 }
               },
-              "queryRef": "fca.Total Cost YTD",
+              "queryRef": "cost_analysis.Total Cost YTD",
               "nativeQueryRef": "YTD Cost",
               "displayName": "YTD Cost"
             }
@@ -88,13 +88,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#TotalCost"
                 }
               },
-              "queryRef": "fca.#TotalCost",
+              "queryRef": "cost_analysis.#TotalCost",
               "nativeQueryRef": "Cost",
               "displayName": "Cost"
             }
@@ -213,7 +213,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$RI"
+            "metadata": "cost_analysis.$RI"
           }
         },
         {
@@ -231,7 +231,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$CapacityPAYG"
+            "metadata": "cost_analysis.$CapacityPAYG"
           }
         },
         {
@@ -249,7 +249,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OtherPAYG"
+            "metadata": "cost_analysis.$OtherPAYG"
           }
         },
         {
@@ -267,7 +267,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.$OneLake"
+            "metadata": "cost_analysis.$OneLake"
           }
         },
         {
@@ -285,7 +285,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#TotalCost"
+            "metadata": "cost_analysis.#TotalCost"
           }
         }
       ],
@@ -379,7 +379,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#TotalCost"
+            "metadata": "cost_analysis.#TotalCost"
           }
         }
       ],

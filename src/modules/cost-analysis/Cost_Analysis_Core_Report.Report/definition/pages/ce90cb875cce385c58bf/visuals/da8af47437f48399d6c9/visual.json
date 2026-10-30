@@ -20,14 +20,14 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "audit_latest_available_fca_version"
+                      "Entity": "audit_latest_available_cost_analysis_version"
                     }
                   },
-                  "Property": "FCA Release"
+                  "Property": "Cost_Analysis Release"
                 }
               },
-              "queryRef": "audit_latest_available_fca_version.FCA Release",
-              "nativeQueryRef": "FCA Release"
+              "queryRef": "audit_latest_available_cost_analysis_version.Cost_Analysis Release",
+              "nativeQueryRef": "Cost_Analysis Release"
             }
           ]
         }
@@ -119,7 +119,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'FCA Release'"
+                  "Value": "'Cost_Analysis Release'"
                 }
               }
             },

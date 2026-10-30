@@ -35,13 +35,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#ProvisionedCapacity"
                 }
               },
-              "queryRef": "fca.#ProvisionedCapacity",
+              "queryRef": "cost_analysis.#ProvisionedCapacity",
               "nativeQueryRef": "Provisioned capacity",
               "displayName": "Provisioned capacity"
             }
@@ -55,7 +55,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#ProvisionedCapacity"

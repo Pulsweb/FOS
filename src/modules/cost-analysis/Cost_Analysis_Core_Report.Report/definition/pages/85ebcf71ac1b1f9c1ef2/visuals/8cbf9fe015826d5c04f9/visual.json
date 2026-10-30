@@ -55,13 +55,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "fca"
+                      "Entity": "cost_analysis"
                     }
                   },
                   "Property": "#CapacityPAYG"
                 }
               },
-              "queryRef": "fca.#CapacityPAYG",
+              "queryRef": "cost_analysis.#CapacityPAYG",
               "nativeQueryRef": "Capacity",
               "displayName": "Capacity"
             }
@@ -75,7 +75,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "fca"
+                    "Entity": "cost_analysis"
                   }
                 },
                 "Property": "#CapacityPAYG"
@@ -113,7 +113,7 @@
             }
           },
           "selector": {
-            "metadata": "fca.#CapacityPAYG"
+            "metadata": "cost_analysis.#CapacityPAYG"
           }
         },
         {
@@ -1174,7 +1174,7 @@
           "Measure": {
             "Expression": {
               "SourceRef": {
-                "Entity": "fca"
+                "Entity": "cost_analysis"
               }
             },
             "Property": "#CapacityPAYG"
@@ -1186,7 +1186,7 @@
           "From": [
             {
               "Name": "f",
-              "Entity": "fca",
+              "Entity": "cost_analysis",
               "Type": 0
             }
           ],
