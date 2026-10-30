@@ -4,7 +4,7 @@ table cost_analysis
 	sourceLineageTag: [cost].[focus_fabric]
 
 	/// Counts the distinct number of capacity
-	/// 
+	///
 	measure #Capacities = DISTINCTCOUNT(cost_analysis[ResourceKey])
 		formatString: 0
 		displayFolder: measures
@@ -24,7 +24,7 @@ table cost_analysis
 
 	/// Counts the distinct number of regions in the RegionName column of the Cost_Analysis table
 	measure #Regions =
-			
+
 			VAR RegionsFromCost_Analysis =
 			    SUMMARIZE ( cost_analysis, 'resources'[RegionId])
 			VAR Result =
@@ -68,10 +68,10 @@ table cost_analysis
 
 	/// Calculates the sum of effective costs for included meters with a specific commitment discount type, adjusted by pause costs
 	measure #CapacityPAYG = ```
-			
-			CALCULATE(SUM(cost_analysis[EffectiveCost]),meters[Included]=TRUE(), cost_analysis[CommitmentDiscountType]<>"Reservation", 
+
+			CALCULATE(SUM(cost_analysis[EffectiveCost]),meters[Included]=TRUE(), cost_analysis[CommitmentDiscountType]<>"Reservation",
 			cost_analysis[BillingType]<>"Capacity Pause/Delete Surcharge")+0
-			
+
 			```
 		displayFolder: measures
 		lineageTag: e739fabf-5c72-4db9-9c58-c0c8e018373a
@@ -317,14 +317,14 @@ table cost_analysis
 
 	/// Calculates the total cost from the beginning of the year to the current date
 	measure 'Total Cost YTD' = ```
-			
+
 			CALCULATE( [#TotalCost],
-			 
+
 			FILTER (
 			        ALLSELECTED ( 'calendar'[Date] ),
 			        'calendar'[Date] <= MAX ( 'calendar'[Date] )
 			    )
-			
+
 			)
 			```
 		displayFolder: measures
@@ -527,14 +527,14 @@ table cost_analysis
 		changedProperty = DisplayFolder
 
 	measure 'Available capacity YTD' = ```
-			
+
 			CALCULATE( [#AvailableCapacity],
-			 
+
 			FILTER (
 			        ALLSELECTED ( 'calendar'[Date] ),
 			        'calendar'[Date] <= MAX ( 'calendar'[Date] )
 			    )
-			
+
 			)
 			```
 		displayFolder: measures
@@ -605,7 +605,7 @@ table cost_analysis
 	/// Interpretation: score >= 90 = excellent, 70-89 = good, 50-69 = needs improvement, < 50 = critical action required.
 	/// To improve: purchase or extend RI reservations to cover more of the provisioned Fabric capacity.
 	measure 'Score - RI Coverage' =
-			
+
 			VAR RI_Coverage = DIVIDE([#Reservation], [#Reservation] + [#CapacityPAYG])
 			VAR Score = MIN(1, DIVIDE(RI_Coverage, 1.0)) * 100
 			RETURN ROUND(Score, 1)
@@ -629,7 +629,7 @@ table cost_analysis
 	/// Interpretation: score >= 95 = excellent, 80-94 = acceptable, 60-79 = review needed, < 60 = RI is largely wasted.
 	/// To improve: right-size or consolidate RIs to match actual usage, or increase workload throughput to consume more reserved capacity.
 	measure 'Score - RI Utilization' =
-			
+
 			VAR RI_Used = [Reservation used ratio %]
 			VAR Score = MIN(1, DIVIDE(RI_Used, 0.95)) * 100
 			RETURN ROUND(Score, 1)
@@ -653,7 +653,7 @@ table cost_analysis
 	/// Interpretation: score >= 90 = excellent, 70-89 = good, 50-69 = over-provisioned, < 50 = significant waste.
 	/// To improve: right-size the Fabric capacity SKU downward, or increase workload scheduling to fill available CUs.
 	measure 'Score - Capacity Utilization' =
-			
+
 			VAR Usage = [#UsageRatioCapacity]
 			VAR Score = MIN(1, DIVIDE(Usage, 0.70)) * 100
 			RETURN ROUND(Score, 1)
@@ -678,7 +678,7 @@ table cost_analysis
 	/// Interpretation: score >= 90 = excellent, 70-89 = acceptable, 50-69 = review pause schedules, < 50 = high pause waste.
 	/// To improve: align pause schedules to respect minimum billing windows, or prefer scaling down over pausing for short periods.
 	measure 'Score - Pause Cost' =
-			
+
 			VAR PauseRatio = [PauseCost %]
 			VAR Score = MAX(0, (1 - DIVIDE(PauseRatio, 0.10)) * 100)
 			RETURN ROUND(Score, 1)
@@ -703,7 +703,7 @@ table cost_analysis
 	/// Interpretation: score >= 90 = excellent, 70-89 = monitored, 50-69 = capacity may need upsizing, < 50 = persistent bursting issue.
 	/// To improve: upgrade the Fabric capacity SKU to match peak demand, or optimize Spark job scheduling to reduce burst spikes.
 	measure 'Score - Low Autoscale' =
-			
+
 			VAR AutoscaleRatio = DIVIDE([#SparkAutoScale] + [#CapacityAutoScale], [#TotalCost])
 			VAR Score = MAX(0, (1 - DIVIDE(AutoscaleRatio, 0.15)) * 100)
 			RETURN ROUND(Score, 1)
@@ -728,7 +728,7 @@ table cost_analysis
 	/// This score can be tracked over time to measure FinOps programme progress. Pair with [FinOps Maturity Label] for a human-readable classification.
 	/// To identify which area to address first, compare the 5 sub-scores: the lowest-scoring dimension offers the greatest improvement opportunity.
 	measure 'FinOps Maturity Score' =
-			
+
 			VAR S1 = [Score - RI Coverage]           * 0.30
 			VAR S2 = [Score - RI Utilization]        * 0.25
 			VAR S3 = [Score - Capacity Utilization]  * 0.20
@@ -750,7 +750,7 @@ table cost_analysis
 	/// Use this measure as a badge or status indicator on report cards and executive summaries.
 	/// Optimized: best-in-class cost efficiency. Managed: strong practices with minor gaps. Defined: processes in place but opportunities remain. Crawling: early adoption. Initial: little to no FinOps practice in place.
 	measure 'FinOps Maturity Label' =
-			
+
 			VAR Score = [FinOps Maturity Score]
 			RETURN
 			    SWITCH(TRUE(),
@@ -1332,4 +1332,6 @@ table cost_analysis
 	changedProperty = IsHidden
 
 	changedProperty = Description
+
+	annotation PBI_ResultType = Table
 

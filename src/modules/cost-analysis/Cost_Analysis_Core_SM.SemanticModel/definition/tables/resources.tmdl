@@ -90,3 +90,5 @@ table resources
 			schemaName: cost
 			expressionSource: DatabaseQuery
 
+	annotation PBI_ResultType = Table
+

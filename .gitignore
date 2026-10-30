@@ -57,3 +57,7 @@ tmp/
 temp/
 scripts/refresh_sms.py
 cicd/deploy_fos_old.py
+
+# Power BI files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf

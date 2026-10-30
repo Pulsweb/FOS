@@ -1,0 +1,165 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1.3333333730697632,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 50,
+            "y": 4.7927290601380719
+          },
+          "nodeIndex": "quota_fabric",
+          "nodeLineageTag": "0d4f3e74-27c6-487b-9770-95b2dbd0096c",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1212.8620822250316,
+            "y": 588.17422035506729
+          },
+          "nodeIndex": "audit_latest_available_cost_analysis_version",
+          "nodeLineageTag": "73ef1116-064e-4550-8c98-f45b50ca8628",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 978.86208222503183,
+            "y": 525.1796489632186
+          },
+          "nodeIndex": "azuretags",
+          "nodeLineageTag": "de31cf2f-a506-4f8f-8a94-b0a1e3b08cbf",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 359.61366027799636,
+            "y": 711.28917821385994
+          },
+          "nodeIndex": "calendar",
+          "nodeLineageTag": "70bb4cbc-9b0c-45fd-93de-64fd3fbe8408",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 712.62302833261811,
+            "y": 224.73804325533831
+          },
+          "nodeIndex": "capacity_regions",
+          "nodeLineageTag": "97ba5560-8233-4d21-975e-ad0c17f94132",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 423.83311755871841,
+            "y": 280.41067839712287
+          },
+          "nodeIndex": "cost_analysis",
+          "nodeLineageTag": "31521cc0-d265-4575-8480-9e7f2c780945",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 336.7806088688086,
+            "y": -50
+          },
+          "nodeIndex": "meters",
+          "nodeLineageTag": "3909217c-6b73-4264-8783-a8f4cfcf884b",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 515.8334239162798,
+            "y": 1098.3484407101346
+          },
+          "nodeIndex": "reservation_usage",
+          "nodeLineageTag": "48ed37bf-0c7e-4676-ae12-403d83be59e0",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 134.52519195054933,
+            "y": 354.88764942846706
+          },
+          "nodeIndex": "reservations",
+          "nodeLineageTag": "048955a8-8999-437f-aae7-c9fde20286fe",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 805.726973136359,
+            "y": 780.267054059733
+          },
+          "nodeIndex": "resources",
+          "nodeLineageTag": "5083cf2c-0215-4d1a-917a-4b72538de465",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 71.1654221758179,
+            "y": 980.71544067754076
+          },
+          "nodeIndex": "subscriptions",
+          "nodeLineageTag": "b38edd54-7876-40de-87b7-495b58b6b80a",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "All tables",
+  "defaultDiagram": "All tables"
+}

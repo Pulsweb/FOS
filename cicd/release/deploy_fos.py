@@ -328,17 +328,40 @@ def upload_deploy_notebook():
 
 def run_deploy_notebook():
     """Trigger the Deploy_FOS notebook with the airgapped parameter set."""
-    print(f"[5/5] Running notebook with local_deployment_lakehouse='{temp_lakehouse_name}'")
-    params = json.dumps(
-        {
-            "parameters": {
-                "local_deployment_lakehouse": {
-                    "type": "String",
-                    "value": temp_lakehouse_name,
+    current_branch = os.environ.get("FOS_CURRENT_BRANCH")
+    current_repository = os.environ.get("GITHUB_REPOSITORY")
+    print(f"[5/5] Running notebook with local_deployment_lakehouse='{temp_lakehouse_name}', current_branch='{current_branch}', git_repository_full_name='{current_repository}'")
+
+    if not current_branch or not current_repository:
+        params = json.dumps(
+                {
+                    "parameters": {
+                        "local_deployment_lakehouse": {
+                            "type": "String",
+                            "value": temp_lakehouse_name
+                        }
+                    }
+                }
+            )
+    else:
+        params = json.dumps(
+            {
+                "parameters": {
+                    "local_deployment_lakehouse": {
+                        "type": "String",
+                        "value": temp_lakehouse_name
+                    },
+                    "current_branch": {
+                        "type": "String",
+                        "value": current_branch
+                    },
+                    "git_repository_full_name": {
+                        "type": "String",
+                        "value": current_repository,
+                    }
                 }
             }
-        }
-    )
+        )
     run_fab_command(
         f"job run {trg_workspace_name}.Workspace/{DEPLOY_NOTEBOOK_ITEM}.Notebook -i {params}",
         timeout=7200,
