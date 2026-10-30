@@ -34,7 +34,8 @@
                         "type": "LakehouseTable",
                         "schema": [],
                         "typeProperties": {
-                            "table": "cost.subscriptions"
+                            "schema": "cost",
+                            "table": "subscriptions"
                         }
                     }
                 }
